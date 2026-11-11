@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch :'main',
-                url='https://github.com/ruchithareddiie/internal'
+                url:'https://github.com/ruchithareddiie/internal'
             }
         }
         stage('Test') {
